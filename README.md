@@ -3,6 +3,7 @@ My first ever Operating System!
 
 ## REQUIRED DEPENDENCIES FOR NON-COMPILED BUILD:
 WSL (Ubuntu)
+
 Tysila
 
 For the rest of the dependencies (using WSL):
