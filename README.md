@@ -9,7 +9,7 @@ Tysila
 For the rest of the dependencies (using WSL):
 ```
 sudo apt-get update
-sudo apt-get install nasm xorriso mono-devel make grub-pc grub-common binutils libc6-dev-i386
+sudo apt-get install nasm xorriso mono-devel make grub-pc grub-common binutils
 ```
 
 You can then add Tysila to your system's PATH variable for the best experience.
