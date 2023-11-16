@@ -25,4 +25,8 @@ Then to link, "make link"
 
 And for the kernel.cs file, install Make for Windows.
 
+
+If make isn't recognized by PowerShell or CMD, add the Make directory to your system's PATH variable.
+Then use "refreshenv" if you have Chocolatey. If not, restart your PC for the changes to take effect
+
 ### HUGE THANKS TO wiki.osdev.org FOR CODE SAMPLES AND EXPLANATIONS!!!
