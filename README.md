@@ -23,4 +23,6 @@ Now use "make" to simply compile all code into an iso.
 Or individually compile code using "make FILETOCOMPILE.o"
 Then to link, "make link"
 
+And for the kernel.cs file, install Make for Windows.
+
 ### HUGE THANKS TO wiki.osdev.org FOR CODE SAMPLES AND EXPLANATIONS!!!
