@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <!--<RuntimeIdentifier>cosmos</RuntimeIdentifier>-->
+		
+        <Platform>cosmos</Platform>
+        <SupportsX86Intrinsics>false</SupportsX86Intrinsics>
+        <SelfContained>True</SelfContained>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <EnableGDB>False</EnableGDB>
+        <StartCosmosGDB>False</StartCosmosGDB>
+        <VisualStudioDebugPort>Pipe: Cosmos\Serial</VisualStudioDebugPort>
+        <CosmosDebugPort>Serial: COM1</CosmosDebugPort>
+        <Launch>VMware</Launch>
+        <Profile>VMware</Profile>
+        <Description>Use VMware Player or Workstation to deploy and debug.</Description>
+        <PxeInterface>192.168.0.8</PxeInterface>
+        <OptimizationLevel>2</OptimizationLevel>
+        <CompressionType>Gzip</CompressionType>
+        <DebugEnabled>False</DebugEnabled>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Remove="Apps\About\Icon.bmp" />
+      <None Remove="Apps\Calculator\Calculator.cs~RF161e40ed.TMP" />
+      <None Remove="Apps\Calculator\Icon.bmp" />
+      <None Remove="Cursor.bmp" />
+      <None Remove="Fonts\Inter.ttf" />
+      <None Remove="Fonts\Ubuntu.ttf" />
+      <None Remove="Fonts\zap-light18.psf" />
+      <None Remove="Fonts\zap-vga16.psf" />
+      <None Remove="Images\Wallpapers\Wallpaper.bmp" />
+      <None Remove="NovaShell.cs~RF2b324cdd.TMP" />
+      <None Remove="PackageManager.cs~RF44c604.TMP" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Include="Apps\About\Icon.bmp" />
+      <EmbeddedResource Include="Apps\Calculator\Icon.bmp" />
+      <EmbeddedResource Include="Images\Cursor.bmp" />
+      <EmbeddedResource Include="Fonts\Inter.ttf" />
+      <EmbeddedResource Include="Fonts\Ubuntu.ttf" />
+      <EmbeddedResource Include="Fonts\zap-light18.psf" />
+      <EmbeddedResource Include="Fonts\zap-vga16.psf" />
+      <EmbeddedResource Include="Images\Wallpapers\Wallpaper.bmp" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Cosmos.Build" Version="0-*" NoWarn="NU1604" />
+        <PackageReference Include="Cosmos.Debug.Kernel" Version="0-*" NoWarn="NU1604" />
+        <PackageReference Include="Cosmos.System2" Version="0-*" NoWarn="NU1604" />
+        <PackageReference Include="Cosmos.Plugs" Version="0-*" NoWarn="NU1604" />
+        <PackageReference Include="CosmosFtpServer" Version="1.0.9" />
+		<PackageReference Include="CosmosHttp" Version="1.0.4" />
+		<PackageReference Include="CosmosTTF" Version="2.0.0" />
+    </ItemGroup>
+
+</Project>
