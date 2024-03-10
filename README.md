@@ -2,7 +2,7 @@
 NovaOS is an open-source operating system designed for universal use, offering essential tools and functionalities for everyday computing tasks. Whether you're a developer, student, or casual user, NovaOS provides a seamless and intuitive experience.
 
 ## Features
-Calculator: Perform basic arithmetic operations with ease using our built-in calculator.
+Calculator: Perform basic arithmetic operations with ease using my built-in calculator.
 Notepad: Take notes, draft documents, or jot down ideas using the integrated notepad.
 Console: Access a command-line interface for advanced system operations and customization.
 More features coming soon!
