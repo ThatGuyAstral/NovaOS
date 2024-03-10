@@ -22,5 +22,5 @@ I welcome contributions from the community to help improve NovaOS. Whether it's 
 ## License
 NovaOS is released under the MIT License, allowing for unrestricted use, modification, and distribution. See the `LICENSE` file for more details.
 
-Contact
+## Contact
 For any inquiries or feedback regarding NovaOS, please contact me at *astral_rr* on discord.
