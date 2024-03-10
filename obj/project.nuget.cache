@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "BV+hy4uI04ED4y8aDWFEXrv7KI6dP+1bNVCYMwWaxQwx2WZ8emSkqcje3VX2daZwvVFBetMBtGw7uX99/gXZSg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\NovaOS\\NovaOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmos.build\\0.1.0-localbuild20240219120536\\cosmos.build.0.1.0-localbuild20240219120536.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmos.common\\0.1.0-localbuild20240219120545\\cosmos.common.0.1.0-localbuild20240219120545.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmos.core\\0.1.0-localbuild20240219120545\\cosmos.core.0.1.0-localbuild20240219120545.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmos.debug.kernel\\0.1.0-localbuild20240219120545\\cosmos.debug.kernel.0.1.0-localbuild20240219120545.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmos.hal2\\0.1.0-localbuild20240219120545\\cosmos.hal2.0.1.0-localbuild20240219120545.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmos.plugs\\0.1.0-localbuild20240219120545\\cosmos.plugs.0.1.0-localbuild20240219120545.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmos.system2\\0.1.0-localbuild20240219120545\\cosmos.system2.0.1.0-localbuild20240219120545.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmosftpserver\\1.0.9\\cosmosftpserver.1.0.9.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmoshttp\\1.0.4\\cosmoshttp.1.0.4.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\cosmosttf\\2.0.0\\cosmosttf.2.0.0.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\il2cpu.api\\0.1.0-localbuild20240219120545\\il2cpu.api.0.1.0-localbuild20240219120545.nupkg.sha512",
+    "C:\\Users\\Astral\\.nuget\\packages\\zlib.portable\\1.11.0\\zlib.portable.1.11.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Zlib.Portable 1.11.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Zlib.Portable",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
