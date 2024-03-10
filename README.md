@@ -17,10 +17,10 @@ To get started with NovaOS, simply follow these steps:
 - Run: Launch NovaOS using VMWare Workstation / Player software or install it on compatible hardware.
 
 ## Contributing
-We welcome contributions from the community to help improve NovaOS. Whether it's bug fixes, feature enhancements, or documentation updates, your contributions are valuable to us. Feel free to submit pull requests or open issues on our GitHub repository.
+I welcome contributions from the community to help improve NovaOS. Whether it's bug fixes, feature enhancements, or documentation updates, your contributions are valuable to me. Feel free to submit pull requests or open issues on my GitHub repository.
 
 ## License
-NovaOS is released under the MIT License, allowing for unrestricted use, modification, and distribution. See the LICENSE file for more details.
+NovaOS is released under the MIT License, allowing for unrestricted use, modification, and distribution. See the `LICENSE` file for more details.
 
 Contact
 For any inquiries or feedback regarding NovaOS, please contact me at *astral_rr* on discord.
