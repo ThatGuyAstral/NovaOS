@@ -1,3 +1,5 @@
+![NovaOS Logo](https://github.com/ThatGuyAstral/NovaOS/blob/main/NovaLogo.png)
+
 # Welcome to NovaOS
 NovaOS is an open-source operating system designed for universal use, offering essential tools and functionalities for everyday computing tasks. Whether you're a developer, student, or casual user, NovaOS provides a seamless and intuitive experience.
 
